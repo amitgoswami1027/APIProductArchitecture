@@ -111,7 +111,16 @@ The RPC runtime is the actual software program that does the heavy lifting and g
 While there are many implementations of the RPC mechanism, the following are a few modern implementations usually used in different kinds of APIs:
 ![image](https://github.com/user-attachments/assets/2498da31-3010-4dbc-8464-7e4b5100b383)
 
+## Introduction to Web API Architectural Styles
+![image](https://github.com/user-attachments/assets/47f53fba-cdc6-492b-a450-1e1379e7405d)
 
+![image](https://github.com/user-attachments/assets/c579dc2a-ecd5-4e4f-88b6-6f29bda83cb8)
+
+![image](https://github.com/user-attachments/assets/3e4d236b-57a9-4683-a934-9e2c48f3db4c)
+
+![image](https://github.com/user-attachments/assets/707bd244-0d8f-4767-b5b5-42db7b4edad2)
+
+![image](https://github.com/user-attachments/assets/a0eea425-d170-46ea-8f32-5e1abacc2bb0)
 
 
 
