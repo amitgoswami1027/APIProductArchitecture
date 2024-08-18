@@ -88,6 +88,37 @@ latency∗bandwidth =200∗10^−3sec∗1∗10^6 bits/sec=200∗10^3 bits=200 kb
 ```
 If the senders want to get the acknowledgment signal from the receiver, then the amount of bits the network can hold is RTT∗Bandwidth. We aren't fully utilizing the network if we don't send all of the data that a link can hold.
 
+## The World Wide Web
+The World Wide Web (WWW) is a hypertext-based information system that interlinks documents spread and stored across millions of machines all over the Internet. It’s commonly known as the web or w3.
+Web Protocols - Since the web follows the client-server model, there should be well-defined protocols to make their communication interoperable. On the web, the client requests some data that is provided by the server in a proper format. The client application, usually a browser, displays the data received from the server in a specific format—a web page. This information flow between clients and servers is directed by a protocol called Hypertext Transfer Protocol (HTTP).Application layer protocols such as the File Transfer Protocol (FTP), Simple Message Transport Protocol (SMTP), HTTP, and so on, use lower layer protocols like Transmission Control Protocol (TCP), User Datagram Protocol (UDP), and Internet Protocol (IP) to provide services to end users.
+
+![image](https://github.com/user-attachments/assets/95552466-60ba-46e3-9526-f9204ee6fc80)
+
+The Hypertext Transfer Protocol (HTTP) is a stateless, application-layer protocol for distributed and hypermedia information systems. It's the foundation of data communication for the World Wide Web and is considered the de facto standard for client-server resource sharing. Web servers and client applications (browsers) must adhere to the message formats and transmission methods provided in the HTTP specifications. For instance, when we type a URL into a browser, the web server receives an HTTP request directing it to fetch and deliver the specified web page.
+
+The following figure shows the HTTP/3.0 protocol stack:
+![image](https://github.com/user-attachments/assets/08fa7132-df1c-48e5-9d18-ec04acd4b453)
+
+## Remote Procedure Calls (RPCs)
+A remote procedure call (RPC) architecture is a service or action-oriented style of creating APIs, where resources are distributed among different services running on remote machines. RPC facilitates interprocess communication by enabling clients to run remote procedures (functions) in a simple local function-call-like abstraction. A generic RPC architecture is shown in the illustration below:
+
+![image](https://github.com/user-attachments/assets/eb3c9816-00f1-40da-8dc6-80a954000da8)
+
+![image](https://github.com/user-attachments/assets/8183134a-cd49-45a7-ac75-df8c8041c9f3)
+
+The RPC runtime is the actual software program that does the heavy lifting and glues all the components together. It communicates with the underlying operating system and network interface to transfer data over the wire. RPC uses the interface definition language (IDL) to set up templates that specify function names, parameters, and so on, to glue processes running in different development environments. The IDL compiler runs only once and generates code stubs to support data conversion between different formats understood by programs written in different languages. RPC-style APIs are easy to implement thanks to traditional function-call-like integration support provided by IDL headers.
+
+While there are many implementations of the RPC mechanism, the following are a few modern implementations usually used in different kinds of APIs:
+![image](https://github.com/user-attachments/assets/2498da31-3010-4dbc-8464-7e4b5100b383)
+
+
+
+
+
+
+
+
+
 
 
 
